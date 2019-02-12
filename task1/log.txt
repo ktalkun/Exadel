@@ -1,0 +1,12 @@
+$ git log
+commit 20534677559781e365b9bd682c146a862febb782 (HEAD -> master)
+Author: Kirill Tolkun <tolkun_14@inbox.ru>
+Date:   Tue Feb 12 16:28:23 2019 +0300
+
+    add task1/status.txt
+
+commit 52b68bcefd06530a14df0151ae379ddec8f399f6
+Author: Kirill Tolkun <tolkun_14@inbox.ru>
+Date:   Tue Feb 12 16:25:35 2019 +0300
+
+    add .gitignore
