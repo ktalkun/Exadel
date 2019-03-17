@@ -1,216 +1,395 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>PLenta</title>
-		<meta name="description" content="Site for real photo lovers.">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- <link rel="icon" href="favicon.ico"> -->
-		<link rel="stylesheet" href="css/fontawesome.min.css">
-		<link rel="stylesheet" href="css/light.min.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<header>
-			<div class="main-wrapper" id="main-menu">
-					<div id="main-logo">PLenta</div>
-					<nav id="main-menu-items">
-						<button id="button-filter" class="button-fill"><i class="fal fa-filter"></i></button>
-						<button id="button-add" class="button-fill"><i class="fal fa-plus"></i></button>
-						<div id="user-welcome">Hi, <span>Daniel!</span></div>
-						<button id="log-in-out"class="button-fill">Log out</button>
-					</nav>
-				</div>
-		</header>
-
-		<div class="main-wrapper">
-			<div id="articles-wrapper">
-				<article>
-					<img class="article-image" src="img/articles/Photo_1.png" alt="New York street. Happy day">
-					<div class="description">
-						<div class="user-panel">
-							<div class="icon-user">
-								<img src="img/icons/article/user-icons/user-coryhoea.jpg" alt="Coryhoea">
-								<span>Coryhoea</span>
-							</div>
-							<button class="button-empty icon-like">
-								<i class="fal fa-heart"></i>
-							</button>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
-						<div class="tags">
-							<span>tags:</span>
-							<ul>
-								<li>#city</li>
-								<li>#blue</li>
-								<li>#street</li>
-							</ul>
-						</div>
-						<div class="date">posted 1 hour ago</div>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>PLenta</title>
+        <meta name="description" content="Site for real photo lovers.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="icon" href="favicon.ico"> -->
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/light.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="main-wrapper" id="main-menu">
+                <div id="main-logo">PLenta</div>
+                <nav id="main-menu-items">
+                    <button id="button-filter" class="button-fill">
+                        <i class="fal fa-filter"></i>
+                    </button>
+                    <button id="button-add" class="button-fill">
+                        <i class="fal fa-plus"></i>
+                    </button>
+                    <div id="user-welcome">Hi,
+						<span>Daniel!</span>
 					</div>
-				</article>
-				<article>
-					<img class="article-image" src="img/articles/Photo_2.png" alt="Sunny day with retro car">
-					<div class="description">
-						<div class="user-panel">
-							<div class="icon-user">
-								<img src="img/icons/article/user-icons/user-daniel.jpg" alt="Daniel">
-								<span>Daniel</span>
-							</div>
-							<div class="button-group">
-								<button class="button-empty icon-delete">
-										<i class="fal fa-trash"></i>
-								</button>
-								<button class="button-empty icon-edit">
-										<i class="fal fa-pen"></i>
-								</button>
-								<button class="button-empty icon-like">
-									<i class="fal fa-heart"></i>
-								</button>
-							</div>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem</p>
-						<div class="tags">
-							<span>tags:</span>
-							<ul>
-								<li>#car</li>
-								<li>#street</li>
-							</ul>
-						</div>
-						<div class="date">posted 6 hours ago</div>
-					</div>
-				</article>
-				<article>
-					<img class="article-image" src="img/articles/Photo_3.png" alt="Nice day with wonderful weather">
-					<div class="description">
-						<div class="user-panel">
-							<div class="icon-user">
-								<img src="img/icons/article/user-icons/user-lilia.jpg" alt="Lilia">
-								<span>Coryhoea</span>
-							</div>
-							<button class="button-empty icon-like">
-									<i class="fal fa-heart"></i>
-							</button>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
-						<div class="tags">
-							<span>tags:</span>
-							<ul>
-								<li>#nature</li>
-								<li>#green</li>
-								<li>#travel</li>
-								<li>#weather</li>
-							</ul>
-						</div>
-						<div class="date">posted 17:06 - 23.02.19</div>
-					</div>
-				</article>
-				<article>
-					<img class="article-image" src="img/articles/Photo_4.png" alt="Big city for strong people">
-					<div class="description">
-						<div class="user-panel">
-							<div class="icon-user">
-								<img src="img/icons/article/user-icons/user-coryhoea.jpg" alt="Coryhoea">
-								<span>Coryhoea</span>
-							</div>
-							<button class="button-empty icon-like">
-									<i class="fal fa-heart"></i>
-							</button>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
-						<div class="tags">
-							<span>tags:</span>
-							<ul>
-								<li>#city</li>
-								<li>#blue</li>
-								<li>#street</li>
-							</ul>
-						</div>
-						<div class="date">posted 14:32 - 23.02.19</div>
-					</div>
-				</article>
-				<article>
-					<img class="article-image" src="img/articles/Photo_5.png" alt="Nice fast car">
-					<div class="description">
-						<div class="user-panel">
-							<div class="icon-user">
-								<img src="img/icons/article/user-icons/user-daniel.jpg" alt="Daniel">
-								<span>Daniel</span>
-							</div>
-							<div class="button-group">
-								<button class="button-empty icon-delete">
-										<i class="fal fa-trash"></i>
-								</button>
-								<button class="button-empty icon-edit">
-										<i class="fal fa-pen"></i>
-								</button>
-								<button class="button-empty icon-like">
-									<i class="fal fa-heart"></i>
-								</button>
-							</div>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem</p>
-						<div class="tags">
-							<span>tags:</span>
-							<ul>
-								<li>#car</li>
-								<li>#red</li>
-								<li>#street</li>
-							</ul>
-						</div>
-						<div class="date">posted 11:18 - 22.02.19</div>
-					</div>
-				</article>
-				<article>
-					<img class="article-image" src="img/articles/Photo_6.png" alt="Nice fast car">
-					<div class="description">
-						<div class="user-panel">
-							<div class="icon-user">
-								<img src="img/icons/article/user-icons/user-daniel.jpg" alt="Daniel">
-								<span>Daniel</span>
-							</div>
-							<div class="button-group">
-								<button class="button-empty icon-delete">
-										<i class="fal fa-trash"></i>
-								</button>
-								<button class="button-empty icon-edit">
-										<i class="fal fa-pen"></i>
-								</button>
-								<button class="button-empty icon-like">
-									<i class="fal fa-heart"></i>
-								</button>
-							</div>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem</p>
-						<div class="tags">
-							<span>tags:</span>
-							<ul>
-								<li>#car</li>
-								<li>#red</li>
-								<li>#street</li>
-							</ul>
-						</div>
-						<div class="date">posted 11:18 - 22.02.19</div>
-					</div>
-				</airtcle>
+                    <button id="log-in-out" class="button-fill">Log out</button>
+                </nav>
 			</div>
-		</div>
+			<form class="main-wrapper hide" id="filter-panel" action="" method="GET" name="filter-panel">
+				<div id="filter-tag">
+					<fieldset>
+						<legend>Tags to filter</legend>
+						<textarea name="tag-textarea"></textarea>
+					</fieldset>
+					<fieldset>
+						<legend>Add tag</legend>
+						<input type="text" name="tag-input" placeholder="tag" autocomplete="off">
+						<select name="tag-select" multiple size="3">
+							<option value="aerography">#aerography</option>
+							<option value="anime">#anime</option>
+							<option value="basketball">#basketball</option>
+							<option value="billiards">#billiards</option>
+							<option value="bowling">#bowling</option>
+							<option value="canada">#canada</option>
+							<option value="car">#car</option>
+							<option value="cartoon">#cartoon</option>
+						</select>
+					</fieldset>
+				</div>
+				<div id="filter-date">
+					<fieldset>
+						<legend>Dates to filter</legend>
+						<textarea name="date-textarea"></textarea>
+					</fieldset>
+					<fieldset>
+						<legend>Add date</legend>
+						<input type="text" name="date-input" placeholder="12.05.19" autocomplete="off">
+						<button name="add-date"><i class="fal fa-plus"></i></button>
+					</fieldset>
+				</div>
+				<div id="filter-name">
+					<fieldset>
+						<legend>Names to filter</legend>
+						<textarea name="name-textarea"></textarea>
+					</fieldset>
+					<fieldset>
+						<legend>Add name</legend>
+						<input type="text" name="name-input" placeholder="Daniel" autocomplete="off">
+						<button name="add-name"><i class="fal fa-plus"></i></button>
+					</fieldset>
+				</div>
+				<div id="filter-buttons">
+					<button class="button-fill" id="button-reset-filters">
+							<i class="fal fa-times"></i>
+					</button>
+					<button class="button-fill" id="button-close-filter-panel" type="button">
+							<i class="fal fa-angle-up"></i>
+					</button>
+					<button class="button-fill" id="button-apply-filters">
+						<i class="fal fa-check"></i>
+					</button>
+				</div>
+			</form>
+        </header>
 
-		<footer>
-			<div id="site-description">
-				<div id="info">
-					<p>Info:</p>
-					<p>PLenta.com </p>
-					<p>developed by Kirill Tolkun</p>
-					<p>2 year 7 group BSU</p>
-				</div>
-				<div id="contacts">
-					<p>Contacts:</p>
-					<p>e-mail: tolkun_14@inbox.ru</p></p>
-				</div>
-				
-			</div>
-			<div class="copyright">Copyright PLenta, 2019</div>
-		</footer>
-	</body>
+        <main class="main-wrapper">
+            <div id="articles-wrapper">
+                <article>
+                    <img
+                        class="article-image"
+                        src="img/articles/Photo_1.png"
+                        alt="New York street. Happy day">
+                    <div class="description">
+                        <div class="user-panel">
+                            <div class="icon-user">
+                                <img src="img/icons/article/user-icons/user-coryhoea.jpg" alt="Coryhoea">
+                                <span>Coryhoea</span>
+                            </div>
+                            <button class="button-empty icon-like">
+                                <i class="fal fa-heart"></i>
+                            </button>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
+                        <div class="tags">
+                            <span>tags:</span>
+                            <ul>
+                                <li>#city</li>
+                                <li>#blue</li>
+                                <li>#street</li>
+                            </ul>
+                        </div>
+                        <div class="date">posted 1 hour ago</div>
+                    </div>
+                </article>
+                <article>
+                    <img
+                        class="article-image"
+                        src="img/articles/Photo_2.png"
+                        alt="Sunny day with retro car">
+                    <div class="description">
+                        <div class="user-panel">
+                            <div class="icon-user">
+                                <img src="img/icons/article/user-icons/user-daniel.jpg" alt="Daniel">
+                                <span>Daniel</span>
+                            </div>
+                            <div class="button-group">
+                                <button class="button-empty icon-delete">
+                                    <i class="fal fa-trash"></i>
+                                </button>
+                                <button class="button-empty icon-edit">
+                                    <i class="fal fa-pen"></i>
+                                </button>
+                                <button class="button-empty icon-like">
+                                    <i class="fal fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet lacinia lorem, sit amet vehicula erat. Nulla metus tellus, pellentesque vitae malesuada vitae, pulvinar quis libero. Donec metus.</p>
+                        <div class="tags">
+                            <span>tags:</span>
+                            <ul>
+                                <li>#car</li>
+                                <li>#street</li>
+                            </ul>
+                        </div>
+                        <div class="date">posted 6 hours ago</div>
+                    </div>
+                </article>
+                <article>
+                    <img
+                        class="article-image"
+                        src="img/articles/Photo_3.png"
+                        alt="Nice day with wonderful weather">
+                    <div class="description">
+                        <div class="user-panel">
+                            <div class="icon-user">
+                                <img src="img/icons/article/user-icons/user-lilia.jpg" alt="Lilia">
+                                <span>Lilia</span>
+                            </div>
+                            <button class="button-empty icon-like">
+                                <i class="fal fa-heart"></i>
+                            </button>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia posuere nisi, nec pretium orci pulvinar vitae. Aliquam eget magna quam posuere.</p>
+                        <div class="tags">
+                            <span>tags:</span>
+                            <ul>
+                                <li>#nature</li>
+                                <li>#green</li>
+                                <li>#travel</li>
+                                <li>#weather</li>
+                            </ul>
+                        </div>
+                        <div class="date">posted 17:06 - 23.02.19</div>
+                    </div>
+                </article>
+                <article>
+                    <img
+                        class="article-image"
+                        src="img/articles/Photo_4.png"
+                        alt="Big city for strong people">
+                    <div class="description">
+                        <div class="user-panel">
+                            <div class="icon-user">
+                                <img src="img/icons/article/user-icons/user-coryhoea.jpg" alt="Coryhoea">
+                                <span>Coryhoea</span>
+                            </div>
+                            <button class="button-empty icon-like">
+                                <i class="fal fa-heart"></i>
+                            </button>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas nunc nec tellus tincidunt commodo. Vivamus dignissim lorem a lorem hendrerit, nec ultricies leo imperdiet. Ut efficitur metus.</p>
+                        <div class="tags">
+                            <span>tags:</span>
+                            <ul>
+                                <li>#city</li>
+                                <li>#blue</li>
+                                <li>#street</li>
+                            </ul>
+                        </div>
+                        <div class="date">posted 14:32 - 23.02.19</div>
+                    </div>
+                </article>
+                <article>
+                    <img class="article-image" src="img/articles/Photo_5.png" alt="Nice fast car">
+                    <div class="description">
+                        <div class="user-panel">
+                            <div class="icon-user">
+                                <img src="img/icons/article/user-icons/user-daniel.jpg" alt="Daniel">
+                                <span>Daniel</span>
+                            </div>
+                            <div class="button-group">
+                                <button class="button-empty icon-delete">
+                                    <i class="fal fa-trash"></i>
+                                </button>
+                                <button class="button-empty icon-edit">
+                                    <i class="fal fa-pen"></i>
+                                </button>
+                                <button class="button-empty icon-like">
+                                    <i class="fal fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquam pulvinar placerat. Sed sed.</p>
+                        <div class="tags">
+                            <span>tags:</span>
+                            <ul>
+                                <li>#car</li>
+                                <li>#red</li>
+                                <li>#street</li>
+                            </ul>
+                        </div>
+                        <div class="date">posted 11:18 - 22.02.19</div>
+                    </div>
+                </article>
+                <article>
+                    <img class="article-image" src="img/articles/Photo_6.png" alt="Nice fast car">
+                    <div class="description">
+                        <div class="user-panel">
+                            <div class="icon-user">
+                                <img src="img/icons/article/user-icons/user-daniel.jpg" alt="Daniel">
+                                <span>Daniel</span>
+                            </div>
+                            <div class="button-group">
+                                <button class="button-empty icon-delete">
+                                    <i class="fal fa-trash"></i>
+                                </button>
+                                <button class="button-empty icon-edit">
+                                    <i class="fal fa-pen"></i>
+                                </button>
+                                <button class="button-empty icon-like">
+                                    <i class="fal fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam augue sem, consequat nec aliquam sed, eleifend vitae purus. Nulla condimentum consectetur arcu in porta amet.</p>
+                        <div class="tags">
+                            <span>tags:</span>
+                            <ul>
+                                <li>#nature</li>
+                                <li>#picturesque</li>
+                            </ul>
+                        </div>
+                        <div class="date">posted 11:18 - 22.02.19</div>
+                    </div>
+				</article>
+				<article>
+                    <img class="article-image" src="img/articles/Photo_7.png" alt="New mobile phone">
+                    <div class="description">
+                        <div class="user-panel">
+                            <div class="icon-user">
+                                <img src="img/icons/article/user-icons/user-paul.jpg" alt="Paul">
+                                <span>Paul</span>
+                            </div>
+                            <div class="button-group">
+                                <button class="button-empty icon-like">
+                                    <i class="fal fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus vitae leo quis amet.</p>
+                        <div class="tags">
+                            <span>tags:</span>
+                            <ul>
+                                <li>#phone</li>
+                                <li>#android</li>
+                            </ul>
+                        </div>
+                        <div class="date">posted 01:31 - 22.02.19</div>
+                    </div>
+				</article>
+				<article>
+                    <img class="article-image" src="img/articles/Photo_8.png" alt="My son">
+                    <div class="description">
+                        <div class="user-panel">
+                            <div class="icon-user">
+                                <img src="img/icons/article/user-icons/user-helena.jpg" alt="Helena">
+                                <span>Helena</span>
+                            </div>
+                            <div class="button-group">
+                                <button class="button-empty icon-like">
+                                    <i class="fal fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc erat nibh, congue eget justo ut, venenatis tempus ligula. Fusce ipsum nulla, ullamcorper non scelerisque eget, sollicitudin ac orci metus.</p>
+                        <div class="tags">
+                            <span>tags:</span>
+                            <ul>
+                                <li>#boy</li>
+                                <li>#son</li>
+                                <li>#football</li>
+                            </ul>
+                        </div>
+                        <div class="date">posted 00:15 - 21.02.19</div>
+                    </div>
+				</article>
+				<article>
+                    <img class="article-image" src="img/articles/Photo_9.png" alt="My son">
+                    <div class="description">
+                        <div class="user-panel">
+                            <div class="icon-user">
+                                <img src="img/icons/article/user-icons/user-andrew.png" alt="Andrew">
+                                <span>Andrew</span>
+                            </div>
+                            <div class="button-group">
+                                <button class="button-empty icon-like">
+                                    <i class="fal fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis, neque a rhoncus rutrum, nulla arcu consectetur risus, ut pretium mi sem sit amet tellus turpis duis.</p>
+                        <div class="tags">
+                            <span>tags:</span>
+                            <ul>
+                                <li>#man</li>
+                                <li>#photographer</li>
+                                <li>#canon</li>
+                            </ul>
+                        </div>
+                        <div class="date">posted 21:13 - 21.02.19</div>
+                    </div>
+				</article>
+				<article>
+                    <img class="article-image" src="img/articles/Photo_10.png" alt="My son">
+                    <div class="description">
+                        <div class="user-panel">
+                            <div class="icon-user">
+                                <img src="img/icons/article/user-icons/user-kate.png" alt="Kate">
+                                <span>Kate</span>
+                            </div>
+                            <div class="button-group">
+                                <button class="button-empty icon-like">
+                                    <i class="fal fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis, neque a rhoncus rutrum, nulla arcu consectetur risus, ut pretium mi sem sit amet tellus turpis duis.</p>
+                        <div class="tags">
+                            <span>tags:</span>
+                            <ul>
+                                <li>#nature</li>
+                                <li>#green</li>
+                                <li>#girl</li>
+                            </ul>
+                        </div>
+                        <div class="date">posted 20:08 - 21.02.19</div>
+                    </div>
+				</article>
+				<button id="button-show-more" class="button-empty">Show more</button>
+            </div>
+        </main>
+
+        <footer>
+            <div id="site-description">
+                <div id="info">
+                    <p>Info:</p>
+                    <p>PLenta.com</p>
+                    <p>developed by Kirill Tolkun</p>
+                    <p>2 year 7 group BSU</p>
+                </div>
+                <div id="contacts">
+                    <p>Contacts:</p>
+                    <p>e-mail: tolkun_14@inbox.ru</p>
+                </p>
+            </div>
+
+        </div>
+        <div class="copyright">Copyright PLenta, 2019</div>
+	</footer>
+	<script src="js/filter-panel.js"></script>
+</body>
 </html>
