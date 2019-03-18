@@ -157,6 +157,7 @@ header{
 	box-sizing: border-box;
 	border-radius: 0 0 15px 15px;
 	background: #43004aa3;
+	/* box-shadow: 0px 1px 10px 0px #1111118c; */
 }
 
 #filter-tag,
@@ -298,21 +299,23 @@ textarea[name="name-textarea"]{
 	position: relative;
 	z-index: 10;
 	top: -600px;
-	-webkit-transition-duration: 0.3s;
-	-moz-transition-duration: 0.3s;
-	-o-transition-duration: 0.3s;
-	transition-duration: 0.3s;
+	-webkit-transition-duration: 0.6s;
+	-moz-transition-duration: 0.6s;
+	-o-transition-duration: 0.6s;
+	transition-duration: 0.6s;
 }
 
 .show {
 	position: relative;
 	z-index: 10;
 	top: 0px;
-	-webkit-transition-duration: 0.3s;
-	-moz-transition-duration: 0.3s;
-	-o-transition-duration: 0.3s;
-	transition-duration: 0.3s;
+	-webkit-transition-duration: 0.6s;
+	-moz-transition-duration: 0.6s;
+	-o-transition-duration: 0.6s;
+	transition-duration: 0.6s;
+	box-shadow: 0px 1px 10px 0px #1111118c;
 }
+
 
 .article-image{
 	width: 100%;
